@@ -1,14 +1,12 @@
 # 📚 Aplikasi Peminjaman Buku Digital
 
-Sistem informasi perpustakaan dengan 3 role pengguna sesuai alur:
-**Admin | Petugas | Anggota**
 
 ---
 
 ## 🗂️ Struktur Direktori
 
 ```
-perpus_new/
+perpus_30/
 ├── index.php           ← Halaman login & registrasi
 ├── setup.php           ← Instalasi database
 ├── perpus_db.sql       ← Skema + data awal
@@ -63,20 +61,20 @@ perpus_new/
 
 ### Langkah
 
-1. **Copy** folder `perpus_new` ke direktori web server (`htdocs` / `www`)
+1. **Copy** folder `perpus_30` ke direktori web server (`htdocs` / `www`)
 
 2. **Edit** `config/database.php` sesuai kredensial database:
    ```php
    define('DB_HOST', 'localhost');
    define('DB_USER', 'root');
    define('DB_PASS', '');
-   define('DB_NAME', 'perpus_db');
+   define('DB_NAME', 'perpus_30');
    ```
 
 3. **Buka browser** → `http://localhost/perpus_new/setup.php`
    Klik **"Inisialisasi Database"**
 
-4. **Login** di `http://localhost/perpus_new/`
+4. **Login** di `http://localhost/perpus_30/`
 
 ---
 

@@ -89,7 +89,7 @@ perpus_30/
 
 ---
 
-## 📋 Fitur Sesuai Alur
+## 📋 Fitur 
 
 ### Admin
 - ✅ Login
